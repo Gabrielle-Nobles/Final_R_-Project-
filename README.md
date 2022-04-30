@@ -21,6 +21,9 @@ Three functions were created in this package clean.data(), usa_density(), usa_hi
 
 ## Instructions
 
+To load the R Package input:
+    library(Homlessness.USA) 
+    
 A data folder containing the file 2007 2016 Homelessness.csv is attached to this package. 
 
 Make sure your working directory is set to the data folder. This may be done by heading to the top toolbar in R:
@@ -28,6 +31,7 @@ Make sure your working directory is set to the data folder. This may be done by 
     Set Working Directory --> Session —> Select Directory 
 
 Then, in your global environment, import the dataset and assign it to a variable of your choice.
+
 ## Suggested Packages
 
 To help import the the file and save the data to the global environment you can download these Packages:
