@@ -1,0 +1,11 @@
+Package: Homlessness.USA
+Type: Package
+Title: 2007_2016 Homelessness in USA Functions
+Version: 0.1.0
+Author: Gabrielle Nobles 
+Maintainer: <gabriellenobles@usf.edu>
+Description: This package is used to display rudimentary analysis and visualize the 2007_2016 Homelessness in the USA dataset.The first function will clean and subset the data to focus on the counts of homlessness in the USA.Then it will output a statistical summary of the data. The second function within the package displays a density plot and the third function uses a histogram plot with a density curve.
+License: GLP-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
