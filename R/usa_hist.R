@@ -11,6 +11,4 @@ usa_hist <- function(x){
   hist(x, prob=T, ylim=c(0, .01200), xlab = "Homelessness", main = "Histogram of Holemessness in US")
   lines(density(x,na.rm=T))
   curve(dnorm(x,mean=mean(x,na.rm=T),sd=sd(x,na.rm=T)), add=T, col='red')
-
-
 }
